@@ -6,6 +6,7 @@
 
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8em;
 }
 
 a{
@@ -16,7 +17,7 @@ header{
   background-color: #333;
 }
 
-.navbar{
+#navbar{
   max-width: 1100px;
   margin: auto;
   /* background-color: aqua; */
@@ -32,7 +33,8 @@ header{
 .navbar_container .logo{
   color: #fff;
   float: left;
-  margin-top: 15px;
+  margin-top: 20px;
+  /* margin-left: 4px */
 }
 
 .navbar_container .logo a{
@@ -50,7 +52,7 @@ ul li{
 
 ul li a{
   display: block;
-  padding: 23px 20px;
+  padding: 20px 20px;
   color: #fff;
   /* border: 1px solid red; */
 }
@@ -66,7 +68,52 @@ ul li a.highlighted{
   clear: both;
 }
 
+.section-1{
+  background-image: url(/img/showcase.jpg);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
 
+.section-1 h1{
+  width: 100%;
+  height: 100px;
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 190px;
+  padding-bottom: 52px;
+  /* margin-top: 200px; */
+  /* border: 1px solid blue; */
+}
+
+.section-1 p{
+  margin: auto;
+  color: #fff;
+  font-size: 20px;
+  /* margin: 240px; */
+  text-align: center;
+  padding-top: 33px;
+  padding-bottom: 35px;
+}
+
+.section-1 a{
+  display: block;
+  width: 100%;
+  max-width: 175px;
+  margin: auto;
+  padding: 13px;
+  background-color: #333 ;
+  /* border: 2px solid yellow; */
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+.x{
+  display: inline;
+  color: #f7c08a;
+}
 
 
 

@@ -116,6 +116,7 @@ ul li a.highlighted{
 }
 
 .section-2{
+  /* display: inline-block; */
   width: 100%;
   height: 400px;
   /* background-color: purple; */
@@ -163,33 +164,54 @@ ul li a.highlighted{
 }
 
 .section-3{
+  /* display: inline-block; */
   width: 100%;
-  height: 300px;
+  height: 250px;
 }
 
 .differentials-1, .differentials-2, .differentials-3{
   display: inline-block;
-  width:33.1%;
+  /* box-sizing: border-box; */
+  width: 33%;
   height: 100%;
-  /* border: 1px solid green; */
+  padding: 40px;
   text-align: center;
-  padding-top: 50px;
 }
 
 .differentials-1, .differentials-3{
-  background-color: #fff;
+  background-color:#fff;
 }
 
 .differentials-2{
   background-color: #f7c08a;
 }
 
+.differentials-1 h3{
+  padding-bottom: 30px;
+}
+
+.differentials-2 h3{
+padding-bottom: 30px;
+}
+
+.differentials-3 h3{
+  padding-bottom: 30px;
+}
+
+
+.icon{
+  font-size: 3em;
+  color: #333 ;
+  padding: 10px;
+}
 
 footer{
 width: 100%;
+/* height: 50px; */
 text-align: center;
-background-color: #333;
+background-color: #444444;
 color: #fff;
+padding: 30px;
 }
 
 
